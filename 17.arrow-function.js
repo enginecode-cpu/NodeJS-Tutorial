@@ -18,14 +18,14 @@ API.prototype.get = (resource) => {
         });
     });
 };
-*/
+ */
 
 /* 
  * Curried Function
  * 예를 들어서, 내가 쇼핑몰을 운영한다고 생각해보자
  * VIP 고객이 있는데 VIP 고객에 대해서 할인율을 적용하고 싶다.
  * 이렇게 고객 등급에 따라 할인율을 적용할 경우 어떻게 해야할까?
-*/
+ */
 
 // Closure
 const getDiscount = rate => price => rate * price;

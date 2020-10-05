@@ -8,7 +8,7 @@ class test {
     fn() {
 
     } 
-    */
+     */
     static call() {
         /* 
          * class를 생성하지 않고
@@ -19,7 +19,7 @@ class test {
          * 생성자의 변수를 사용할 수 없다.
          * 그래서 생성자가 필요가 없다.
          * console.log('static method 입니다.')
-        */
+         */
     }
 }
 

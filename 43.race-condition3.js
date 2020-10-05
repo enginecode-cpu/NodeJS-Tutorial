@@ -1,6 +1,6 @@
 /*
  * 42.race-condition.js을 해결하는 방법
-*/
+ */
 
 'use strict'
 
@@ -8,7 +8,7 @@
  * 두 가지 이상의 데이터 경쟁 조건을 원천적으로 해결하기 위해
  * 경쟁 상태를 만들지 않겠다는 것이다.
  * Lock이 되어 있는지 확인을 해야한다.  
-*/
+ */
 class Lock {
     constructor() {
         this._locked = false;

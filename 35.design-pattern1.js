@@ -1,7 +1,7 @@
 /*
  * 함수형 프로그래밍(Functional Programming)
  * 어떻게 설계를 하면 코드를 간결하고 유지보수 하기 좋게 할 수 있을지 고민
-*/
+ */
 
 // reduce: 각각의 배열의 요소를 하나하나씩 접근할 때 좋다.
 'use strict'
@@ -27,7 +27,7 @@ console.log(avg);
 /* 
  * reduce 응용
  * 배열을 순회하면서 조건에 맞는 것을 배열로 만드는 예제
-*/
+ */
 
 const res = numbers.reduce((total, amount) => {
     if (amount > 10) total.push(amount);

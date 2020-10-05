@@ -2,7 +2,7 @@
  * Static Factory Method
  * 1. constructor를 생성자로서의 기능을 버리는 것
  * 2. 생성자를 static method로 구성을 한다.
-*/
+ */
 
 'use strict'
 

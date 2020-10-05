@@ -3,7 +3,7 @@
  * 생성자 안에서 비동기 처리를 하는 방법
  * 
  * 핵심: async-await은 Promise의 확장이다.
-*/
+ */
 'use strict'
 
 class DatabaseManager {
